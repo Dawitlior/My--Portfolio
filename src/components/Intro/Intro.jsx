@@ -30,8 +30,10 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Lior Dawit</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+              Motivated Full-Stack Developer. <br />
+              A sociable person with teamwork skills. <br /> Looking for a first position
+              within tech sector where I can contribute to the organization's goals,
+               and improve my professional abilities.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,15 +41,16 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/Dawitlior"><img src={Github} alt="" /></a>
+          <a href="https://www.linkedin.com/in/lior-dawit-07464b236/"><img src={LinkedIn} alt="" /></a>
+          <a href=""><img src={Instagram} alt="" /></a>
         </div>
       </div>
       {/* right image side */}
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
+        {/* <img src={boy1} alt="" /> */}
         {/* animation */}
         <motion.img initial={{ left: "-36%" }} whileInView={{ left: "-24%" }} transition={transition} src={glassesimoji} alt="" />
 
