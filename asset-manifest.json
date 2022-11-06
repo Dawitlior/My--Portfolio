@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/My--Portfolio/static/css/main.033c1d13.css",
+    "main.js": "/My--Portfolio/static/js/main.404cdfc5.js",
+    "static/media/madrid.png": "/My--Portfolio/static/media/madrid.032eae4b189c628c04f5.png",
+    "static/media/ecommerce.png": "/My--Portfolio/static/media/ecommerce.522da76635d52117102b.png",
+    "static/media/musicapp.png": "/My--Portfolio/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/boy1.jpeg": "/My--Portfolio/static/media/boy1.b5ee2cc784b565a74bc9.jpeg",
+    "static/media/glassesimoji.png": "/My--Portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/LiorDawit-CV [1].docx": "/My--Portfolio/static/media/LiorDawit-CV [1].779915433bb6790b3840.docx",
+    "static/media/hoc.png": "/My--Portfolio/static/media/hoc.e6af51fc04c57ae67096.png",
+    "static/media/thumbup.png": "/My--Portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/My--Portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/My--Portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/My--Portfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/My--Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/My--Portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/My--Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/My--Portfolio/index.html",
+    "main.033c1d13.css.map": "/My--Portfolio/static/css/main.033c1d13.css.map",
+    "main.404cdfc5.js.map": "/My--Portfolio/static/js/main.404cdfc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.033c1d13.css",
+    "static/js/main.404cdfc5.js"
+  ]
+}
