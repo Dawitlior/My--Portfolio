@@ -1,11 +1,11 @@
 import Navbar from "./components/Pages/Navbar/Navbar";
-import Intro from "./components/Intro/Intro";
-import Services from "./components/Services/Services";
+import Intro from "./components/Pages/Intro/Intro";
+import Services from "./components/Pages/Services/Services";
 import "./App.css";
-import Experience from "./components/Experience/Experience";
-import Works from "./components/Works/Works";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonial from "./components/Testimonials/Testimonial";
+import Experience from "./components/Pages/Experience/Experience";
+import Works from "./components/Pages/Works/Works";
+import Portfolio from "./components/Pages/Portfolio/Portfolio";
+import Testimonial from "./components/Pages/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
 import { useContext } from "react";
 import Footer from "./components/featurs/Footer/Footer";

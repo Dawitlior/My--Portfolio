@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import "./Services.css";
-import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
-import { themeContext } from "../../contexts/Context";
+import Card from "../../featurs/Card/Card";
+import HeartEmoji from "../../../img/heartemoji.png";
+import Glasses from "../../../img/glasses.png";
+import Humble from "../../../img/humble.png";
+import { themeContext } from "../../../contexts/Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from './LiorDawit-CV [1].docx';
 
 const Services = () => {
   // context
@@ -26,11 +26,11 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
+        <span>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
           ispum is simpley dummy text of printing
-        </spane>
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -50,6 +50,7 @@ const Services = () => {
             detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
           />
         </motion.div>
+
         {/* second card */}
         <motion.div
           initial={{ left: "-11rem", top: "12rem" }}

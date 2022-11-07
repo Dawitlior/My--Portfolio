@@ -2,11 +2,11 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import madrid from "../../img/madrid.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
-import { themeContext } from "../../contexts/Context";
+import madrid from "../../../img/madrid.png";
+import Ecommerce from "../../../img/ecommerce.png";
+import HOC from "../../../img/hoc.png";
+import MusicApp from "../../../img/musicapp.png";
+import { themeContext } from "../../../contexts/Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;

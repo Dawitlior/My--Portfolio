@@ -1,16 +1,16 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Vector1 from "../../img/Vector1.png";
-import Vector2 from "../../img/Vector2.png";
-import boy1 from "../../img/boy1.jpeg";
-import glassesimoji from "../../img/glassesimoji.png";
-import thumbup from "../../img/thumbup.png";
-import crown from "../../img/crown.png";
-import FloatinDiv from "../featurs/FloatingDiv/FloatingDiv";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
-import { themeContext } from "../../contexts/Context";
+import Vector1 from "../../../img/Vector1.png";
+import Vector2 from "../../../img/Vector2.png";
+// import boy1 from "../../img/boy1.jpeg";
+import glassesimoji from "../../../img/glassesimoji.png";
+import thumbup from "../../../img/thumbup.png";
+import crown from "../../../img/crown.png";
+import FloatinDiv from "../../featurs/FloatingDiv/FloatingDiv";
+import Github from "../../../img/github.png";
+import LinkedIn from "../../../img/linkedin.png";
+import Instagram from "../../../img/instagram.png";
+import { themeContext } from "../../../contexts/Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 const Intro = () => {
@@ -30,10 +30,10 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "black" }}>Hy! I Am</span>
           <span>Lior Dawit</span>
           <span>
-              Motivated Full-Stack Developer. <br />
-              A sociable person with teamwork skills. <br /> Looking for a first position
-              within tech sector where I can contribute to the organization's goals,
-               and improve my professional abilities.
+            Motivated Full-Stack Developer. <br />
+            A sociable person with teamwork skills. <br /> Looking for a first position
+            within tech sector where I can contribute to the organization's goals,
+            and improve my professional abilities.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
